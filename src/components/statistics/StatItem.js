@@ -11,7 +11,7 @@ export default function StatItem({ label, percentage }) {
       }}
     >
       <span className={s.label}>{label}</span>
-      <span class={s.percentage}>{percentage}%</span>
+      <span className={s.percentage}>{percentage}%</span>
     </li>
   );
 }
